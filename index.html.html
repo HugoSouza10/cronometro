@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crônometro completo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="display">
+        <div class="widget_hours">
+            <div id="hours">
+                <span id="widget_number_start_hours">0</span>
+                <span id="widget_number_end_hours">0</span>
+            </div>
+            <div class="icone_wiget">h</div>
+        </div>
+        
+        <div class="widget_minutes">
+            <div id="minutes">
+                <span id="widget_number_start_min">0</span>
+                <span id="widget_number_end_min">0</span>
+            </div>
+            <div class="icone_wiget">min</div>
+        </div>
+        <div class="widget_seg">
+            <div id="seg">
+                <span id="widget_number_start_seg">0</span>
+                <span id="widget_number_end_seg">0</span>
+            </div>
+            <div class="icone_wiget">seg</div>
+        </div>
+      
+        <div class="wiget_mile">
+            <div id="Mile">,00</div>
+        </div>
+        
+    </div>
+    
+    <div class="button_wiget">
+        <button id="start">start</button>
+        <button id="save">save</button>
+        <button id="reset">Resetar</button>
+        <button id="stop">Stop</button>
+    </div>
+
+    <div id="historic">
+        <h4>HISTÓRICO</h4>
+        <div class="display_historic">
+            <div id="historic_hours">...</div>
+            <div id="historic_minutes">...</div>
+            <div id="historic_seg">...</div>
+            <div id="historic_mile">...</div>
+        </div>
+        <div class="display_info">
+            <div class="historic_info">
+                <div class="widget_icone_historic">H</div>
+            </div>
+    
+            <div class="historic_info">
+                <div class="widget_icone_historic">M</div>
+            </div>
+    
+            <div class="historic_info">
+                <div class="widget_icone_historic">S</div>
+            </div>
+    
+            <div class="historic_info">
+                <div class="widget_icone_historic">Mi</div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
