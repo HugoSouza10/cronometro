@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#Mile{
+    position: absolute;
+    font-size: 40px;
+    color: lightskyblue;
+}
+
+.button_wiget{
+    text-align: center;
+}
+
+.icone_wiget{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#hours{
+    color: cornflowerblue;
+    margin-right: 20px;
+}
+
+#hours::after{
+    content: ':';
+    
+}
+
+#minutes{
+    color: lightskyblue;
+    margin-right: 20px;
+}
+
+#seg{
+    color: cornflowerblue;
+    margin-right: 20px;
+}
+
+#seg::before{
+    content: ':';
+}
+
+.icone_wiget{
+    color: lightgray;
+}
+
+
+#start, #save{
+    background-color:cornflowerblue ;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reset, #stop{
+    background-color:lightskyblue ;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#historic h4{
+    color:cornflowerblue;
+    text-align: center;
+}
+
+.container_historic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.display_historic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.display_info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+#historic_hours, #historic_minutes, #historic_seg, #historic_mile{
+    background-color:cornflowerblue ;
+    padding: 5px;
+    margin-right: 5px;
+    color: #fff;
+
+}
+
+.widget_icone_historic{
+    color:lightgray;
+}
+
+
+@media(max-width:1024px){
+    .display{
+        font-size: 48pt;
+    }
+}
+
+
+@media(max-width:450px){
+    .display{
+        font-size: 23pt;
+    }
+
+    #Mile{
+        font-size: 20pt;
+    }
+}
+
+
+
